@@ -1,0 +1,33 @@
+.navbar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px 5%;
+  background-color: ghostwhite;
+  box-shadow: 0px 1px 5px darkgrey;
+}
+
+.navbar h1 {
+  font-family: "Rubik", sans-serif;
+}
+
+.navbar input {
+  padding: 0px 0px 0px 40px;
+  height: 40px;
+  width: 45vw;
+  font-size: 20px;
+  font-family: "Work Sans", sans-serif;
+  border-radius: 4px;
+  border-width: 1px;
+  border-style: solid;
+  background: url("../assets/icons/magnify-icon.png") no-repeat scroll 5px 4px;
+}
+
+.navbar input:hover {
+  border-width: 2px;
+}
+
+::placeholder {
+  color: black;
+}

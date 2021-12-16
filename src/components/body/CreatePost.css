@@ -1,0 +1,44 @@
+.create-post {
+  display: flex;
+  justify-content: center;
+  padding: 15px;
+}
+
+.create-post-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.create-post-form input {
+  padding: 0px 5px;
+  margin-bottom: 8px;
+  height: 40px;
+  width: 35vw;
+  font-size: 20px;
+  font-family: "Work Sans", sans-serif;
+  border-radius: 4px;
+  border-width: 1px;
+  border-style: solid;
+}
+
+.create-post-form textarea {
+  padding: 0px 5px;
+  margin-bottom: 8px;
+  height: 75px;
+  width: 35vw;
+  font-size: 20px;
+  font-family: "Work Sans", sans-serif;
+  border-radius: 4px;
+  border-width: 1px;
+  border-style: solid;
+}
+
+.create-post-title {
+  display: flex;
+  justify-content: start;
+  font-family: "Rubik", sans-serif;
+}
+
+.create-post-title p {
+  margin: 2px 0px 8px 0px;
+}
