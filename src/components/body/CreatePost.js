@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 
 import Card from "../UI/Card";
-import Button from "../UI/Button";
+import "../UI/Button.css";
 import "./CreatePost.css";
 
 const CreatePost = ({ onCreate }) => {
@@ -18,6 +18,8 @@ const CreatePost = ({ onCreate }) => {
     }
   };
 
+  console.log(postTitle, postText);
+
   return (
     <div className="create-post">
       <Card className="create-post-card">
@@ -31,7 +33,9 @@ const CreatePost = ({ onCreate }) => {
             placeholder="Text"
             onChange={(event) => setPostText(event.target.value)}
           ></textarea>
-          <Button onSubmit={submitHandler}>Post</Button>
+          <button className="button" onClick={submitHandler}>
+            Post
+          </button>
         </form>
       </Card>
     </div>

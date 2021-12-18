@@ -1,7 +1,7 @@
 import React from "react";
 
 import "./Navbar.css";
-import Button from "../UI/Button.js";
+import "../UI/Button.css";
 
 // import magnify_icon from "../assets/icons/magnify-icon.png";
 
@@ -11,7 +11,7 @@ const Navbar = (props) => {
       <header className="navbar">
         <h1>Coinwave</h1>
         <input placeholder="Search" />
-        <Button>Log in</Button>
+        <button className="button">Log in</button>
       </header>
     </React.Fragment>
   );
