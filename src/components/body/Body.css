@@ -1,0 +1,20 @@
+.body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 1rem 0rem;
+}
+
+.post-list {
+  display: grid;
+  gap: 1rem;
+  list-style: none;
+  padding: 0px;
+}
+
+.post {
+  display: block;
+  width: 39.8vw;
+  margin: auto;
+  text-align: center;
+}

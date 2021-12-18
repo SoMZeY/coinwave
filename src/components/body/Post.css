@@ -1,0 +1,28 @@
+.post {
+  display: flex;
+  flex-direction: column;
+}
+
+.post-header {
+  display: flex;
+  flex-direction: column;
+}
+
+.post-header p {
+  font-family: "Rubik", sans-serif;
+  display: flex;
+  justify-self: start;
+  margin: 5px;
+}
+
+.post-title {
+  font-size: 25px;
+  color: rgb(128, 128, 128);
+}
+
+.post-text {
+  text-align: start;
+  font-family: "Work Sans", sans-serif;
+  font-size: 20px;
+  margin: 5px;
+}

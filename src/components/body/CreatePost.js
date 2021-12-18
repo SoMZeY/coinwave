@@ -21,9 +21,7 @@ const CreatePost = ({ onCreate }) => {
   return (
     <div className="create-post">
       <Card className="create-post-card">
-        <div className="create-post-title">
-          <p>Create Post</p>
-        </div>
+        <p className="create-post-title">Create Post</p>
         <form className="create-post-form">
           <input
             placeholder="Title"

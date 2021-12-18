@@ -2,13 +2,13 @@ import React from "react";
 
 import "./App.css";
 import Navbar from "./components/navigation/Navbar";
-import CreatePost from "./components/body/CreatePost";
+import Body from "./components/body/Body";
 
 function App() {
   return (
     <div className="App">
       <Navbar></Navbar>
-      <CreatePost></CreatePost>
+      <Body></Body>
     </div>
   );
 }
